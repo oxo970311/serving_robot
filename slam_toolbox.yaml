@@ -1,0 +1,18 @@
+slam_toolbox:
+  ros__parameters:
+    use_sim_time: false
+
+    map_frame: map
+    odom_frame: odom
+    base_frame: base_scan        
+    scan_topic: /scan            
+
+    mode: "mapping"
+    map_file_name: "map"
+    resolution: 0.05
+    max_laser_range: 10.0
+
+    tf_buffer_duration: 30.0
+    transform_publish_period: 0.02
+    queue_size: 100
+    transform_tolerance: 0.5
